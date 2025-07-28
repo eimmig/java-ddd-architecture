@@ -5,7 +5,7 @@ import br.com.alura.codechella.vendas.dominio.ingresso.Setor;
 
 public record DadosTipoIngresso(
         Integer codigo,
-        Setor,
+        Setor setor,
         Definicao definicao
 ) {
 }
